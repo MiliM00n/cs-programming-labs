@@ -1,0 +1,6 @@
+info = input()
+number, from_spot, to_spot, time, price = info.split(";")
+print(f"Поезд: {number}")
+print(f"Маршрут: {from_spot} - {to_spot}")
+print(f"Отправление: {time}")
+print(f"Цена: {float(price):.2f} руб")

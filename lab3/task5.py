@@ -1,0 +1,6 @@
+n = input()
+print(f"Длина: {len(n)}")
+print(f"Только буквы: {n.isalpha()}")
+print(f"Только цифры: {n.isdigit()}")
+print(f"Буквенно-цифровая: {n.isalnum()}")
+print(f"Содержит дефис: {'-' in n}")
